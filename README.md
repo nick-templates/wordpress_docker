@@ -1,5 +1,11 @@
 ## Useful commands
 
+### Start the site with messages
+`sudo docker-compose up`
+
+### Start the site silently and detach
+`sudo docker-compose up -d`
+
 ### Enter inside the container
 `sudo docker exec -it <container-name> /bin/bash`
 
